@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+.navbar {
+  background-color: white;
+  -webkit-box-shadow: 2px 9px 5px 0px rgba(196, 192, 196, 1);
+  -moz-box-shadow: 2px 9px 5px 0px rgba(196, 192, 196, 1);
+  box-shadow: 2px 9px 5px 0px rgba(196, 192, 196, 1);
+  height: 70px;
+  padding: 1rem;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.logo {
+  flex-wrap: wrap;
+  cursor: pointer;
+  margin-left: 2rem !important;
+  font-family: "Bangers" !important;
+  font-size: 2rem !important;
+  letter-spacing: 5px !important;
+  background-image: linear-gradient(to right, red, orange);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.options {
+  display: flex;
+  margin-right: 5rem;
+  gap: 5rem;
+  align-items: center;
+}
+.options h3 {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.loginBut,
+.logoutBut {
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color:#fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.loginBut {
+
+  background-color: #e8560d;
+}
+.logoutBut {
+  background-color: red;
+}
+.cart {
+  display: flex;
+
+  /* justify-content: space-around; */
+}
+
+.icon {
+  font-size: 2.5rem !important;
+  cursor: pointer !important;
+}
+@media screen and (max-width: 570px) {
+  .logo {
+    display: none;
+  }
+
+  .options {
+    width: 100%;
+    margin-right: 0px;
+    justify-content: space-between;
+  }
+}

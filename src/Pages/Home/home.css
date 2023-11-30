@@ -1,0 +1,28 @@
+.home{
+
+}
+.row{
+display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+}
+.column{
+    margin: 20px;
+}
+.pizz{
+    cursor: pointer;
+}
+@media screen and (max-width: 1270px) {
+  
+    .row{
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+@media screen and (max-width: 850px) {
+   
+    .row{
+        grid-template-columns: 1fr;
+        margin: 0px auto;
+    }
+  }

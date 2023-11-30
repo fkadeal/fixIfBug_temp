@@ -1,0 +1,36 @@
+.orderr{
+    /* background: red; */
+    background: radial-gradient(orange,orangered);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 250px;
+    margin-bottom: 1rem;
+  
+}
+.orderr h3{
+    margin-bottom: 10px;
+}
+.orderItems{
+    max-height: 200px;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+.orderr p{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 800;
+}
+.orderItem{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.orderItemImg{
+    width: 30px;
+    height: 30px;
+}
+.deliveryAddress .address{
+    background-color: inherit;
+}
