@@ -9,6 +9,9 @@ import Register from "./Pages/Login/Register";
 import Profile from "./Pages/Profile/Profile";
 import Adminscreen from './screens/Adminscreen';
 
+// versel test insights
+import { SpeedInsights } from '@vercel/speed-insights/react';
+
 function App() {
   
   const logininfo=localStorage.getItem('logininfo')
@@ -25,6 +28,7 @@ function App() {
 	  <Route path='/admin' component={Adminscreen}/>
       </Routes>
       </BrowserRouter>
+      <SpeedInsights />
     </div>
   );
 }
